@@ -1,0 +1,42 @@
+.element {
+
+  .element-actions {
+    margin: 10px 0;
+    opacity:0.9;
+    transition:opacity 0.5s ease;
+  }
+
+  .ant-divider-inner-text {
+    border: 1px solid #91d5ff;
+    background-color: #e6f7ff;
+
+    border-radius: 3px;
+    padding: 0 10px;
+
+    i {
+      color: #91d5ff;
+      cursor: pointer;
+    }
+  }
+  &:hover {
+
+
+    > .element-actions {
+      opacity:1;
+    }
+  }
+
+  .ant-card {
+    &:hover {
+      border-color: #91d5ff !important;
+      box-shadow: 0px 0px 4px 1px #90d5ff;
+    }
+  }
+}
+
+
+.plan-elements {
+  .ant-list-item-content-single {
+    margin-bottom:0;
+  }
+}

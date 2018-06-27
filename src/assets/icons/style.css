@@ -1,0 +1,198 @@
+@font-face {
+  font-family: 'fitango-moo';
+  src:  url('fonts/fitango-moo.eot?hcm0eb');
+  src:  url('fonts/fitango-moo.eot?hcm0eb#iefix') format('embedded-opentype'),
+    url('fonts/fitango-moo.ttf?hcm0eb') format('truetype'),
+    url('fonts/fitango-moo.woff?hcm0eb') format('woff'),
+    url('fonts/fitango-moo.svg?hcm0eb#fitango-moo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ico-"], [class*=" ico-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'fitango-moo' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-tumorboard:before {
+  content: "\e928";
+}
+.ico-actionplan:before {
+  content: "\e91d";
+}
+.ico-careplan:before {
+  content: "\e91e";
+}
+.ico-assessment:before {
+  content: "\61";
+}
+.ico-audio:before {
+  content: "\e901";
+}
+.ico-checkbox-el:before {
+  content: "\63";
+}
+.ico-dropdown-el:before {
+  content: "\64";
+}
+.ico-pencil:before {
+  content: "\65";
+}
+.ico-file:before {
+  content: "\66";
+}
+.ico-image:before {
+  content: "\69";
+}
+.ico-line:before {
+  content: "\e907";
+}
+.ico-link:before {
+  content: "\6c";
+}
+.ico-select-many:before {
+  content: "\6d";
+}
+.ico-select-one:before {
+  content: "\6f";
+}
+.ico-openended-text:before {
+  content: "\e90b";
+}
+.ico-pdf:before {
+  content: "\e90c";
+}
+.ico-ppt:before {
+  content: "\70";
+}
+.ico-scale-el:before {
+  content: "\73";
+}
+.ico-text-el:before {
+  content: "\74";
+}
+.ico-tip:before {
+  content: "\e910";
+}
+.ico-tracker:before {
+  content: "\e911";
+}
+.ico-video:before {
+  content: "\76";
+}
+.ico-associatedap:before {
+  content: "\e900";
+}
+.ico-audience:before {
+  content: "\e902";
+}
+.ico-category:before {
+  content: "\e903";
+}
+.ico-disclaimer:before {
+  content: "\e904";
+}
+.ico-embed:before {
+  content: "\e905";
+}
+.ico-gender:before {
+  content: "\e906";
+}
+.ico-language:before {
+  content: "\e908";
+}
+.ico-location:before {
+  content: "\e909";
+}
+.ico-output:before {
+  content: "\e90a";
+}
+.ico-snapshot:before {
+  content: "\e90da";
+}
+.ico-price:before {
+  content: "\e90e";
+}
+.ico-privacy:before {
+  content: "\e90f";
+}
+.ico-requirments:before {
+  content: "\e912";
+}
+.ico-ribbon:before {
+  content: "\e913";
+}
+.ico-skills:before {
+  content: "\e914";
+}
+.ico-source:before {
+  content: "\e915";
+}
+.ico-tag:before {
+  content: "\e916";
+}
+.ico-clinical-note:before {
+  content: "\e91f";
+}
+.ico-conditional:before {
+  content: "\e920";
+}
+.ico-diagnosis:before {
+  content: "\e921";
+}
+.ico-evaluation:before {
+  content: "\e922";
+}
+.ico-goto:before {
+  content: "\e923";
+}
+.ico-regimen:before {
+  content: "\e925";
+}
+.ico-stage:before {
+  content: "\e926";
+}
+.ico-to-do:before {
+  content: "\e927";
+}
+.ico-treatment:before {
+  content: "\e924";
+}
+.ico-people:before {
+  content: "\e90d";
+  color: #54acd6;
+}
+.ico-document:before {
+  content: "\e917";
+  color: #f5b722;
+}
+.ico-checklist-inside:before {
+  content: "\e918";
+  color: #a44c95;
+}
+.ico-health:before {
+  content: "\e919";
+  color: #fb4c2d;
+}
+.ico-home:before {
+  content: "\e91a";
+  color: #ff9e03;
+}
+.ico-person:before {
+  content: "\e91b";
+  color: #64dcc8;
+}
+.ico-warning:before {
+  content: "\e91c";
+  color: #2c4b5f;
+}

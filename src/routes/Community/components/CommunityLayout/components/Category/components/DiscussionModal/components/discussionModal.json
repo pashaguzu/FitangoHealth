@@ -1,0 +1,27 @@
+{
+  "communityDiscussion": {
+    "id": "community.categoryLayout.view.communitydiscussion",
+    "defaultMessage": " Community Discussions",
+    "description": "Community Discussions"
+  },
+  "start": {
+    "id": "community.categoryLayout.view.start",
+    "defaultMessage": "Start discussion",
+    "description": "Start discussion"
+  },
+  "submit": {
+    "id": "community.categoryLayout.view.Submit",
+    "defaultMessage": "Submit",
+    "description": "Submit"
+  },
+  "title": {
+    "id": "community.categoryLayout.view.title",
+    "defaultMessage": "Subject",
+    "description": "Subject"
+  },
+  "text": {
+    "id": "community.categoryLayout.view.text",
+    "defaultMessage": "Message",
+    "description": "Message"
+  }
+}

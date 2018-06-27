@@ -1,0 +1,195 @@
+@import '~antd/lib/style/themes/default.less';
+
+.pageHeader {
+  margin:0;
+  margin-bottom:24px;
+  background: #fff;
+  padding: 20px 32px 0;
+  border-bottom: 1px solid #e8e8e8;
+
+  h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0,0,0,.85);
+    margin-bottom: 16px;
+  }
+  &Desc {
+    margin-bottom: 16px;
+  }
+  &Extra {
+
+  }
+  .ant-btn {
+    vertical-align: top;
+  }
+
+
+
+
+  .detail {
+    display: flex;
+  }
+
+  .row {
+    display: flex;
+    width: 100%;
+  }
+
+  .breadcrumb {
+    margin-bottom: 16px;
+  }
+
+  .tabs {
+    margin: 0 0 -17px -8px;
+
+    :global {
+      .ant-tabs-bar {
+        border-bottom: none;
+      }
+    }
+
+    &.collapsed {
+      background: #fff;
+      margin:0 -32px;
+      padding: 0 24px;
+      box-shadow: rgba(0, 21, 41, 0.08) 0px 1px 4px;
+      border-bottom: 1px solid #e8e8e8;
+
+      .ant-tabs-bar {
+        margin-bottom: 0;
+      }
+      .ant-tabs-ink-bar {
+        height:3px;
+      }
+    }
+  }
+
+  .logo {
+    flex: 0 1 auto;
+    margin-right: 16px;
+    padding-top: 1px;
+    > img {
+      width: 28px;
+      height: 28px;
+      border-radius: @border-radius-base;
+      display: block;
+    }
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: @heading-color;
+  }
+
+  .action {
+    margin-left: 56px;
+    min-width: 266px;
+
+    :global {
+      .ant-btn-group:not(:last-child),
+      .ant-btn:not(:last-child) {
+        margin-right: 8px;
+      }
+
+      .ant-btn-group > .ant-btn {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .title,
+  .action,
+  .content,
+  .extraContent,
+  .main {
+    flex: 0 1 auto;
+  }
+  .main {
+    width: 100%;
+  }
+  .title,
+  .action {
+    margin-bottom: 16px;
+  }
+
+  .logo,
+  .content,
+  .extraContent {
+    margin-bottom: 16px;
+  }
+
+  .action,
+  .extraContent {
+    text-align: right;
+  }
+
+  .extraContent {
+    margin-left: 88px;
+    min-width: 242px;
+  }
+}
+
+.ant-card-body {
+  .pageHeader {
+    padding: 0;
+  }
+  .pageContent {
+    margin:0;
+  }
+}
+@media screen and (max-width: @screen-xl) {
+  .pageHeader {
+    .extraContent {
+      margin-left: 44px;
+    }
+  }
+}
+
+@media screen and (max-width: @screen-lg) {
+  .pageHeader {
+    .extraContent {
+      margin-left: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: @screen-md) {
+  .pageHeader {
+    .row {
+      display: block;
+    }
+
+    .action,
+    .extraContent {
+      margin-left: 0;
+      text-align: left;
+    }
+  }
+}
+
+@media screen and (max-width: @screen-sm) {
+  .pageHeader {
+    .detail {
+      display: block;
+    }
+  }
+}
+
+@media screen and (max-width: @screen-xs) {
+  .pageHeader {
+    .action {
+      :global {
+        .ant-btn-group,
+        .ant-btn {
+          display: block;
+          margin-bottom: 8px;
+        }
+        .ant-btn-group > .ant-btn {
+          display: inline-block;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

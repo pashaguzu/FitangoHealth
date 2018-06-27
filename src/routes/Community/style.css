@@ -1,0 +1,88 @@
+.ant-carousel .slick-list {
+    margin-left: -5px;
+    margin-right: -6px;
+}
+
+.ant-carousel .slick-dots {
+    position:relative;
+    bottom:0;
+}
+.ant-carousel .slick-dots li.slick-active button {
+    background: #6b6b6b;
+}
+.ant-carousel .slick-dots li button {
+    background: #6b6b6b;
+}
+
+react-autosuggest__container {
+    position: relative;
+}
+
+.react-autosuggest__input {
+    width: 140px;
+    height: 15px;
+    padding: 10px 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+}
+
+.react-autosuggest__input--focused {
+    outline: none;
+}
+
+.react-autosuggest__input--open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+    display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    top: 30px;
+    width: 240px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    z-index: 2;
+}
+
+.react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+    cursor: pointer;
+    padding: 0px 0px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+    background-color: #ddd;
+}
+
+.demo {
+    margin: 16px;
+}
+.demo-nav {
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 16px;
+    background: #f8f8f8;
+}
+.demo-nav a {
+    line-height: 30px;
+    padding: 0 8px;
+}
+.app-list {
+    margin-top: 16px;
+}

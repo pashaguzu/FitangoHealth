@@ -1,0 +1,10 @@
+.DS_STORE
+src/clients/apolloClient.js
+*.log
+node_modules/
+dist
+build/
+coverage
+.idea/
+.yarn-cache
+

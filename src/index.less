@@ -1,0 +1,262 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.full-width {width:100%;}
+
+.ant-card + .ant-card {
+  margin-top:20px;
+}
+
+.ant-card-padding-transition .ant-card-head, .ant-card-padding-transition .ant-card-body {
+  -webkit-transition: none !important;
+  -o-transition: none !important;
+   transition: none !important;
+}
+
+.ant-card-padding-transition .ant-card-head, .ant-card-padding-transition .ant-card-body {
+
+}
+
+.ant-card-type {
+  &-table {
+    > .ant-card-body {
+      padding: 0 !important;
+      padding-top: 1px !important;
+      .ant-table-thead > tr > th:first-child, .ant-table-tbody > tr > td:first-child {
+        padding-left: 24px;
+      }
+    }
+  }
+  &-pure {
+    > .ant-card-body {
+      padding: 0 !important;
+    }
+  }
+
+  //&-option {
+  //  .ant-card-head {
+  //    /*background: #f9f9f9;*/
+  //    padding: 0 16px;
+  //  }
+  //  .ant-card-body {
+  //    background: #fffbe6;
+  //    padding: 0 16px !important;
+  //
+  //
+  //    .ant-list-item {
+  //      padding-top:16px;
+  //    }
+  //    .ant-list-item + .ant-list-item {
+  //      padding-top:8px;
+  //    }
+  //    .ant-list-item:last-child {
+  //      padding-bottom:16px;
+  //    }
+  //
+  //    .ant-list-item-content-single:last-child {
+  //      margin-bottom: 0;
+  //    }
+  //  }
+  //}
+
+
+
+  
+}
+
+.ant-card-head {
+  .sorter-handler {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 15px;
+    height: 11px;
+    opacity: .45;
+    margin-right: 5px;
+    cursor: row-resize;
+    background: -webkit-linear-gradient(top,#000,#000 20%,#fff 0,#fff 40%,#000 0,#000 60%,#fff 0,#fff 80%,#000 0,#000);
+    background: linear-gradient(180deg,#000,#000 20%,#fff 0,#fff 40%,#000 0,#000 60%,#fff 0,#fff 80%,#000 0,#000);
+  }
+}
+
+.ant-list-item-action {
+  align-self: flex-start;
+}
+
+
+.ant-btn-orange {
+  color: #fff !important;
+  background-color: #eca438 !important;
+  border-color: #eca438 !important;
+  &:hover {
+    color: #fff !important;
+    background-color: #f7bd66 !important;
+    border-color: #eca438 !important;
+  }
+}
+
+.demo-infinite-container {
+  overflow-y: auto;
+  max-height: 300px;
+}
+.demo-loading {
+  /*position: absolute;
+  bottom: -40px;*/
+  left: 50%;
+  position: relative;
+  margin-top: -30px;
+}
+
+.ant-card-extra {
+  padding: 16px 0 !important;
+  .ant-btn-group > .ant-btn {
+    line-height:24px;
+  }
+  .anticon {
+    vertical-align: baseline;
+  }
+}
+
+
+
+.ant-list-item {
+  &.full-width {
+    .ant-list-item-content {display:none;}
+  }
+}
+
+.ant-list-vertical {
+
+  .ant-list-item-meta {
+    margin-bottom: 5px !important;
+    &-title {
+      color: rgba(0, 0, 0, 0.65);
+      margin-bottom: 4px;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    &-avatar {
+      display: block !important;
+    }
+    &-title {
+      margin-bottom: 4px !important;
+    }
+  }
+
+  &> .ant-list-item-meta {
+    margin-bottom: 16px;
+    &-title {
+      color: rgba(0, 0, 0, 0.85);
+      margin-bottom: 12px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    &-avatar {
+      display:none !important;
+    }
+    &-title {
+      margin-bottom: 4px;
+    }
+  }
+}
+
+
+
+
+.ant-switch {
+  background: #fff !important;
+  border:1px solid #ccc !important;
+  &-inner {
+    color: #ccc !important;
+  }
+  &.ant-switch-checked {
+    background: #51ade2 !important;
+    border-color: #51ade2 !important;
+
+  }
+  &-checked {
+    .ant-switch-inner {
+      color: #fff !important;
+    }
+  }
+}
+
+
+
+.ant-checkbox-group.checkbox-vertical {
+  .ant-checkbox-group-item {
+    display: block !important;
+  }
+}
+
+.ant-card-notes {
+  margin: 24px -24px;
+  margin-bottom: -24px;
+  border-top: 1px solid #ffe58f;
+  background-color: #fffbe6;
+  padding: 16px 24px;
+}
+
+
+.ant-card-grid {
+  &:hover {
+    .ant-card-grid--hovered {
+      color: #51ade2;
+    }
+  }
+}
+
+.ant-card-type-basic {
+  border: none !important;
+
+  &.pure {
+    &> .ant-card-body {
+      border:none;
+      padding:0;
+      padding-top: 10px;
+
+      .ant-card {
+        margin-bottom:8px;
+      }
+    }
+  }
+  .ant-card-head {
+    padding: 0 12px;
+
+    &-title {
+      padding-bottom:5px;
+      font-size:1.5em;
+    }
+  }
+
+  .ant-card-body {
+    border: 1px solid #e8e8e8;
+  }
+
+}
+
+
+
+.ant-table {
+  &.ant-table-middle {
+
+    .ant-table-content {
+      .ant-table-body {
+        table {
+          tr {
+            & > th:first-child, & > td:first-child {
+              padding-left:24px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+

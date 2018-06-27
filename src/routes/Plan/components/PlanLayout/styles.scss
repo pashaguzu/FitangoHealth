@@ -1,0 +1,98 @@
+@import '~bootstrap/scss/bootstrap-grid.scss';
+
+$blue : #4294cc;
+
+.ap-card {
+  border: 1px solid #ccc;
+  margin-bottom:5px;
+  width:100%;
+  overflow:hidden;
+  border-radius: 3px;
+
+  &:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+  }
+
+  &__img {
+    min-height:120px;
+    width:100%;
+    background: #f2f2f2;
+    background-size: cover;
+    position: relative;
+    &--large {
+      height: 170px;
+      min-height: 170px;
+    }
+    .rect-shape {
+      position:absolute;
+    }
+  }
+  &__title {
+    display: table;
+    color: #555;
+    font-weight: 400;
+    font-size: 1em;
+    padding: 5px 10px;
+    height: 48px;
+    line-height: 1.1em;
+    width: 100%;
+    font-family: OpenSans, Helvetica Neue, Helvetica, Tahoma, Arial, FreeSans, sans-serif;
+    border-radius: 0 0 4px 4px;
+    border-top: 1px solid #d9d9db;
+    &--large {
+      border:none;
+      margin-bottom: 15px;
+      color: $blue;
+      font-size: 0.9em;
+      padding: 0;
+      line-height: 1em;
+      display: block;
+      height: auto;
+      h1 {
+        font-size:2em;
+        margin:0;
+      }
+    }
+
+    &-text {
+      display: table-cell;
+      vertical-align: middle;
+      white-space: normal;
+    }
+  }
+  &__description {
+    ul {
+      padding-left: 20px;
+    }
+  }
+  &__action {
+    position: absolute;
+    bottom:0;
+    height: 38px;
+    width: 100%;
+  }
+}
+.show-loading-animation {
+  .ap-card {
+    border-color:#f2f2f2;
+  }
+}
+
+// Example usage:
+@include media-breakpoint-down(xs) {
+  .ap-card {
+    &__img {
+      min-height: 180px;
+    }
+
+    &__body {
+
+      .ap-card__action {
+        position:relative; text-align:center;
+      }
+    }
+  }
+}
+
+
+

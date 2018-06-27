@@ -1,0 +1,101 @@
+.timeline_el {
+  clear:both;
+
+  .ant-tag {float:left;}
+
+  &_text {
+    margin-left: 90px;
+  }
+}
+
+.ant-card.ant-card-type-timeline {
+  border: 1px solid #f2f2f2 ;
+
+
+  &.active-element {
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.09);
+    border-color: rgba(0, 0, 0, 0.09);
+    margin-right: -10px;
+  }
+  > .ant-card-body {
+    border: 1px solid #e8e8e8;
+  }
+  .ant-card-head {
+    min-height: 20px;
+    padding: 0 14px !important;
+    background: transparent;
+
+    border:none !important;;
+    &-title {
+      padding: 6px 0 !important;
+      padding-top: 0!important;
+      font-size: inherit !important;
+    }
+  }
+
+  .ant-card-extra {
+    padding: 6px 0 !important;
+    padding-top: 0!important;
+    font-size: inherit !important;
+  }
+
+  .ant-card-body {
+    padding: 6px 14px 10px !important;
+    border:none;
+    min-height: 60px;
+  }
+
+  &.transparent {
+    border:none;
+     > .ant-card-head {
+        boder-bottom:none;
+       .ant-card-head-title {
+         padding-top:0 !important;
+
+       }
+    }
+
+
+    > .ant-card-body {
+      padding:0 !important;
+      border: none;
+    }
+  }
+
+
+
+  .timeline-icon {
+    width:40px;
+    position: absolute;
+    left: 10px;
+    height: 40px;
+    background: #f2f2f2;
+    border-radius: 50%;
+    top:10px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.3em;
+  }
+
+  .timeline-text {margin-left:50px;}
+  .timeline-image {float:right;}
+  .timeline-actions {
+    float:right;
+    z-index: 1;
+    color: #ccc;
+    font-size: 0.8em;
+  }
+  .timeline-date {
+    float:right;
+    z-index: 1;
+    color: #ccc;
+    margin-right:5px;
+    font-size: 0.8em;
+  }
+}
+
+.ant-card.ant-card-type-timeline + .ant-card.ant-card-type-timeline {
+  margin-top:5px;
+}

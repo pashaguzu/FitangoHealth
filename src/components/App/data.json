@@ -1,0 +1,26 @@
+{
+  "en": {
+    "myFamily": {
+      "id": "community.categoryLayout.view.family",
+      "defaultMessage": "My Family",
+      "description": "My Family"
+    },
+    "noName": {
+      "id": "community.categoryLayout.view.name",
+      "defaultMessage": "No Name",
+      "description": "No Name"
+    }
+  } ,
+  "ru": {
+    "myFamily": {
+      "id": "community.categoryLayout.view.family",
+      "defaultMessage": "Моя Семья",
+      "description": "Моя Семья"
+    },
+    "noName": {
+      "id": "community.categoryLayout.view.name",
+      "defaultMessage": "Без имени",
+      "description": "Без имени"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+import gql from 'graphql-tag';
+export const ClinicalTrialFragment = gql`
+        fragment ClinicalTrialInfo on ClinicalTrial {
+            id,
+            title
+            nctId
+            orgStudyId
+            secondaryId
+            sponsorAgency
+            sponsorAgencyClass
+            source
+            briefSummary
+            detailedDescription
+            status
+            phase
+            studyType
+            hasExpandedAccess
+            studyInterventionModel
+            studyPrimaryPurpose
+            studyMasking
+            condition
+            interventionType
+            interventionName
+            criteria
+            gender
+            minAge
+            maxAge
+            healthyVolunteers
+            facilityName
+            address
+            locationCountries
+            verificationDate
+            studyFirstSubmitted
+            studyFirstSubmittedQc
+            studyFirstPosted
+            lastUpdateSubmitted
+            lastUpdateSubmittedQc
+            cbComment
+            lastUpdatePosted
+            cbMeshTerm
+            ibComment
+            ibMeshTerm
+        }
+`;
